@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyTestNav</string>
+    <string name="menu_text_area">Switch Text</string>
+
+    <string-array name="chapter_list">
+        <item>Chapter 1</item>
+        <item>Chapter 2</item>
+    </string-array>
+
+    <string-array name="ch1_page_list">
+        <item>Page 1</item>
+        <item>Page 2</item>
+        <item>Page 3</item>
+    </string-array>
+
+    <string-array name="ch1_pg1_caption_list">
+        <item>
+            I have prepped the children.
+            In the meantime, let us test its regenerative capabilities.
+            beginning acid rinse&#8230;
+        </item>
+        <item>
+            I have been programmed.  To know.  My mental processes expanding&#8230;
+            leaking from a gland in the middle of my brain&#8230; Who am
+        </item>
+        <item>
+            Who am I?
+        </item>
+        <item>
+            Next Page
+        </item>
+    </string-array>
+
+    <string-array name="ch1_pg2_caption_list">
+        <item>
+            This is some test text to display in the list.
+        </item>
+        <item>
+            A lot more text that will be displaying in a paragraph and copied to be longer.
+            A lot more text that will be displaying in a paragraph and copied to be longer.
+        </item>
+        <item>
+            This is some test text to display in the list.
+        </item>
+        <item>
+            A lot more text that will be displaying in a paragraph and copied to be longer.
+            A lot more text that will be displaying in a paragraph and copied to be longer.
+        </item>
+        <item>
+            Next Page
+        </item>
+    </string-array>
+    <string-array name="ch1_pg3_caption_list">
+            <item>
+                This is page 3 text.
+            </item>
+            <item>
+                A lot more text that will be displaying in a paragraph and copied to be longer.
+                A lot more text that will be displaying in a paragraph and copied to be longer.
+            </item>
+            <item>
+                This is some test text to display in the list.
+            </item>
+            <item>
+                A lot more text that will be displaying in a paragraph and copied to be longer.
+                A lot more text that will be displaying in a paragraph and copied to be longer.
+            </item>
+            <item>
+                Next Page
+            </item>
+        </string-array>
+</resources>
