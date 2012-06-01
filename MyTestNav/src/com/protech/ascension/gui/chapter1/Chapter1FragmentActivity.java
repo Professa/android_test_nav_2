@@ -1,4 +1,4 @@
-package com.protech.ascension.chapter1;
+package com.protech.ascension.gui.chapter1;
 
 import android.animation.*;
 import android.content.res.Configuration;
