@@ -3,7 +3,7 @@ package com.protech.ascension.gui;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
-import com.protech.ascension.chapter1.*;
+import com.protech.ascension.gui.chapter1.*;
 
 /**
  * Created with IntelliJ IDEA.

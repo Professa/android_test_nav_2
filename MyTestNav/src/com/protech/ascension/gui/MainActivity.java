@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import com.protech.ascension.R;
-import com.protech.ascension.chapter1.Chapter1FragmentActivity;
+import com.protech.ascension.gui.chapter1.Chapter1FragmentActivity;
 
 public class MainActivity extends Activity
 {
