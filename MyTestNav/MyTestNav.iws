@@ -27,8 +27,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="210a4c94-3818-4ad0-8a45-e1cd5835d9b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/gui/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/gui/MyPageStateAdapter.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/MyPageStateAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/protech/ascension/provider/Images.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTestNav.iws" afterPath="$PROJECT_DIR$/MyTestNav.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1Fragment.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1Fragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1FragmentActivity.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1FragmentActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage1Fragment.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage1Fragment.java" />
     </list>
     <ignored path="MyTestNav.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,31 +106,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AsyncDrawable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/AsyncDrawable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="45" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BitmapWorkerTask.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/BitmapWorkerTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="89" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Chapter1FragmentActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1FragmentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="18" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="109" column="53" selection-start="4206" selection-end="4206" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#toggleVisibleTextArea#0;class#Chapter1FragmentActivity#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,118 +121,16 @@
       <file leaf-file-name="MyPageStateAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/MyPageStateAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="66" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
+            <state line="14" column="13" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstChapterPage1Fragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage1Fragment.java">
+      <file leaf-file-name="Images.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/provider/Images.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="13" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirstChapterPage2Fragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage2Fragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirstChapterPage3Fragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage3Fragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CaptionTextFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/CaptionTextFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="52" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/PageFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="22" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TouchImageView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/TouchImageView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TouchImageView2.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/TouchImageView2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="59" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TouchViewPager.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/TouchViewPager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="378" selection-end="378" vertical-scroll-proportion="-0.32713756">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageCache.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="76" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiskLruCache.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/DiskLruCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="8" selection-start="2430" selection-end="2430" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2570#2571#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chapter1Fragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1Fragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+            <state line="24" column="56" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -257,16 +141,7 @@
       <file leaf-file-name="ImageWorker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="41" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RetainFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/RetainFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+            <state line="358" column="33" selection-start="13589" selection-end="13589" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -274,19 +149,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/Utils.java">
+      <file leaf-file-name="Chapter1Fragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1Fragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="47" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
+            <state line="63" column="0" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BitmapWorkerTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/BitmapWorkerTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="11" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstChapterPage1Fragment.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage1Fragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="47" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.47943595">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen/com/protech/ascension/BuildConfig.java">
+      <file leaf-file-name="AsyncDrawable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/AsyncDrawable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="19" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+            <state line="18" column="11" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -309,7 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/protech/ascension/Util/AsyncDrawable.java" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/chapter1/Chapter1FragmentActivity.java" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/Util/BitmapWorkerTask.java" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/util/AsyncDrawable.java" />
@@ -318,13 +214,14 @@
         <option value="$PROJECT_DIR$/src/com/protech/ascension/util/ImageFetcher.java" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/util/ImageResizer.java" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/util/ImageWorker.java" />
-        <option value="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1Fragment.java" />
-        <option value="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1FragmentActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage1Fragment.java" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage2Fragment.java" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage3Fragment.java" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/gui/MyPageStateAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/gui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/protech/ascension/provider/Images.java" />
+        <option value="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1Fragment.java" />
+        <option value="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1FragmentActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage1Fragment.java" />
       </list>
     </option>
   </component>
@@ -424,6 +321,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyTestNav" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyTestNav" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ascension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="provider" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -851,53 +770,83 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/BitmapWorkerTask.java">
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/TouchViewPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="89" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.0">
+        <state line="64" column="110" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/DiskLruCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="8" selection-start="2430" selection-end="2430" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/RetainFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="13" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="47" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/protech/ascension/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-15/android/util/LruCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="276" column="18" selection-start="9373" selection-end="9373" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="76" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="31" column="13" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.33104238">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/MyPageStateAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="66" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="358" column="33" selection-start="13589" selection-end="13589" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage1Fragment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/provider/Images.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="24" column="56" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage2Fragment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageResizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage3Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+        <state line="96" column="88" selection-start="2921" selection-end="2921" vertical-scroll-proportion="0.31962398">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -906,67 +855,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1FragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="18" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/CaptionTextFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="52" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/PageFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/TouchImageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageFetcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="41" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0">
+        <state line="109" column="53" selection-start="4206" selection-end="4206" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#5546#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#toggleVisibleTextArea#0;class#Chapter1FragmentActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/TouchImageView2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/AsyncDrawable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="59" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0">
+        <state line="18" column="11" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageResizer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="41" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+        <state line="63" column="0" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/TouchViewPager.java">
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/MyPageStateAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="378" selection-end="378" vertical-scroll-proportion="-0.32713756">
+        <state line="14" column="13" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/BitmapWorkerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="11" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage1Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="47" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.47943595">
           <folding />
         </state>
       </provider>

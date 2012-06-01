@@ -1,6 +1,7 @@
 package com.protech.ascension.gui.chapter1;
 
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.protech.ascension.R;
 import com.protech.ascension.gui.TouchImageView2;
+import com.protech.ascension.util.ImageWorker;
 
 /**
  * Created with IntelliJ IDEA.
@@ -21,16 +22,18 @@ public class Chapter1Fragment extends Fragment {
     private static final String IMAGE_DATA_EXTRA = "resId";
     private int mPageNum;
     private TouchImageView2 mImageView;
-
-    public Chapter1Fragment() { }
+    private ImageWorker mImageWorker;
 
     public static Chapter1Fragment newInstance(int pageNum) {
         final Chapter1Fragment f = new Chapter1Fragment();
+
         final Bundle args = new Bundle();
         args.putInt(IMAGE_DATA_EXTRA, pageNum);
         f.setArguments(args);
         return f;
     }
+
+    public Chapter1Fragment() { }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -52,6 +55,10 @@ public class Chapter1Fragment extends Fragment {
             final int resId = Chapter1FragmentActivity.PAGE_LIST[mPageNum];
             // Call out to Chapter1FragmentActivity to load the bitmap in a background thread
             ((Chapter1FragmentActivity) getActivity()).loadBitmap(resId, mImageView);
+
+            // Option 2
+            mImageWorker = ((Chapter1FragmentActivity) getActivity()).getImageWorker();
+            mImageWorker.loadImage(mPageNum, mImageView);
         }
     }
 
@@ -62,5 +69,15 @@ public class Chapter1Fragment extends Fragment {
 //        mImageView.setImageResource(resId);
         Bitmap bm = BitmapFactory.decodeResource(getResources(), resId);
         mImageView.setImageBitmap(bm);
+    }
+
+    /**
+     * Cancels the asynchronous work taking place on the ImageView, called by the adapter backing
+     * the ViewPager when the child is destroyed.
+     */
+    public void cancelWork() {
+        ImageWorker.cancelWork(mImageView);
+        mImageView.setImageDrawable(null);
+        mImageView = null;
     }
 }

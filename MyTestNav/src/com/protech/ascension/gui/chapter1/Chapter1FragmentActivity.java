@@ -5,14 +5,18 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.util.DisplayMetrics;
 import android.view.*;
 import com.protech.ascension.*;
 import com.protech.ascension.gui.CaptionTextFragment;
 import com.protech.ascension.gui.MyPageStateAdapter;
 import com.protech.ascension.gui.TouchImageView2;
 import com.protech.ascension.gui.TouchViewPager;
-import com.protech.ascension.util.AsyncDrawable;
-import com.protech.ascension.util.BitmapWorkerTask;
+import com.protech.ascension.provider.Images;
+import com.protech.ascension.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -22,13 +26,17 @@ import com.protech.ascension.util.BitmapWorkerTask;
  * To change this template use File | Settings | File Templates.
  */
 public class Chapter1FragmentActivity extends FragmentActivity {
+    private static final String IMAGE_CACHE_DIR = "images";
+
     private Animator mCurrentTextAnimator;
     private MyPageStateAdapter myPageStateAdapter;
+    private ImagePagerAdapter mAdapter;
 
 //    private ViewPager mViewPager;
     private TouchViewPager mViewPager;
     private TouchImageView2 mImageView;
     private CaptionTextFragment captionTextFragment;
+    private ImageResizer mImageWorker;
 
     private String[] mToggleText = {"Show Text", "Hide Text"};
 
@@ -53,8 +61,25 @@ public class Chapter1FragmentActivity extends FragmentActivity {
         setContentView(R.layout.chapter_1_layout);
 
         captionTextFragment = (CaptionTextFragment) getSupportFragmentManager().
-                        findFragmentById(R.id.caption_text_frag);
+                findFragmentById(R.id.caption_text_frag);
 
+        initForOriginal();
+
+        initForWorkerApproach();
+
+        if (mTextAreaHidden) {
+//            getSupportFragmentManager().beginTransaction().hide(
+//                    getSupportFragmentManager().findFragmentById(R.id.caption_text_frag));
+        } else {
+//            captionTextFragment = new CaptionTextFragment();
+//
+//            getSupportFragmentManager().beginTransaction().add(
+//                    android.R.id.content, captionTextFragment
+//            ).commit();
+        }
+    }
+
+    private void initForOriginal() {
         // Create an adapter that when requested, will return a fragment representing an object in
         // the collection.
         //
@@ -74,17 +99,29 @@ public class Chapter1FragmentActivity extends FragmentActivity {
         mViewPager = (TouchViewPager) findViewById(R.id.pager);
         mViewPager.setAdapter(myPageStateAdapter);
         mViewPager.setCaptionTextFragment(captionTextFragment);
+    }
 
-        if (mTextAreaHidden) {
-//            getSupportFragmentManager().beginTransaction().hide(
-//                    getSupportFragmentManager().findFragmentById(R.id.caption_text_frag));
-        } else {
-//            captionTextFragment = new CaptionTextFragment();
-//
-//            getSupportFragmentManager().beginTransaction().add(
-//                    android.R.id.content, captionTextFragment
-//            ).commit();
-        }
+    private void initForWorkerApproach() {
+        // Fetch screen height and width, to use as our max size when loading images as this
+        // activity runs full screen
+        final DisplayMetrics displaymetrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
+        final int height = displaymetrics.heightPixels;
+        final int width = displaymetrics.widthPixels;
+        final int longest = height > width ? height : width;
+
+        // The ImageWorker takes care of loading images into our ImageView children asynchronously
+        mImageWorker = new ImageFetcher(this, longest);
+        mImageWorker.setAdapter(Images.imageWorkerUrlsAdapter);
+        mImageWorker.setImageCache(ImageCache.findOrCreateCache(this, IMAGE_CACHE_DIR));
+        mImageWorker.setImageFadeIn(false);
+
+        // Set up ViewPager and backing adapter
+        mAdapter = new ImagePagerAdapter(getSupportFragmentManager(),
+                mImageWorker.getAdapter().getSize());
+        mViewPager = (TouchViewPager) findViewById(R.id.pager);
+        mViewPager.setAdapter(mAdapter);
+//        mViewPager.setPageMargin((int) getResources().getDimension(R.dimen.image_detail_pager_margin));
     }
 
     @Override
@@ -217,4 +254,31 @@ public class Chapter1FragmentActivity extends FragmentActivity {
 //        }
 //        return null;
 //    }
+
+    private class ImagePagerAdapter extends FragmentStatePagerAdapter {
+        private final int mSize;
+
+        public ImagePagerAdapter(FragmentManager fm, int size) {
+            super(fm);
+            mSize = size;
+        }
+
+        @Override
+        public int getCount() {
+            return mSize;
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            return Chapter1Fragment.newInstance(position);
+        }
+
+        @Override
+        public void destroyItem(ViewGroup container, int position, Object object) {
+            final Chapter1Fragment fragment = (Chapter1Fragment) object;
+            // As the item gets destroyed we try and cancel any existing work.
+            fragment.cancelWork();
+            super.destroyItem(container, position, object);
+        }
+    }
 }
