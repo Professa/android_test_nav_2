@@ -22,7 +22,7 @@ import android.graphics.Bitmap.CompressFormat;
 import android.graphics.BitmapFactory;
 import android.os.Environment;
 import android.util.Log;
-import com.example.android.bitmapfun.BuildConfig;
+import com.protech.ascension.BuildConfig;
 
 import java.io.*;
 import java.net.URLEncoder;

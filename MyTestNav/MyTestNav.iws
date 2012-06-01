@@ -27,25 +27,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="210a4c94-3818-4ad0-8a45-e1cd5835d9b3" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\BNengel\Documents\GitHub\android_test_nav\MyTestNav\src\com\protech\ascension\CaptionTextFragment.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/CaptionTextFragment.java" />
-      <change type="MOVED" beforePath="C:\Users\BNengel\Documents\GitHub\android_test_nav\MyTestNav\src\com\protech\ascension\MainActivity.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/MainActivity.java" />
-      <change type="MOVED" beforePath="C:\Users\BNengel\Documents\GitHub\android_test_nav\MyTestNav\src\com\protech\ascension\MyPageStateAdapter.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/MyPageStateAdapter.java" />
-      <change type="MOVED" beforePath="C:\Users\BNengel\Documents\GitHub\android_test_nav\MyTestNav\src\com\protech\ascension\PageFragment.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/PageFragment.java" />
-      <change type="MOVED" beforePath="C:\Users\BNengel\Documents\GitHub\android_test_nav\MyTestNav\src\com\protech\ascension\TouchImageView.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/TouchImageView.java" />
-      <change type="MOVED" beforePath="C:\Users\BNengel\Documents\GitHub\android_test_nav\MyTestNav\src\com\protech\ascension\TouchImageView2.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/TouchImageView2.java" />
-      <change type="MOVED" beforePath="C:\Users\BNengel\Documents\GitHub\android_test_nav\MyTestNav\src\com\protech\ascension\TouchViewPager.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/TouchViewPager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTestNav.iws" afterPath="$PROJECT_DIR$/MyTestNav.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-large-port/chapter_1_layout.xml" afterPath="$PROJECT_DIR$/res/layout-large-port/chapter_1_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-large/chapter_1_layout.xml" afterPath="$PROJECT_DIR$/res/layout-large/chapter_1_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/ch1_page1.xml" afterPath="$PROJECT_DIR$/res/layout/ch1_page1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/chapter_1_layout.xml" afterPath="$PROJECT_DIR$/res/layout/chapter_1_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1Fragment.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1Fragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1FragmentActivity.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1FragmentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage1Fragment.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage1Fragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage2Fragment.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage2Fragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage3Fragment.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/FirstChapterPage3Fragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/util/BitmapWorkerTask.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/util/BitmapWorkerTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/util/DiskLruCache.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/util/DiskLruCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/util/ImageCache.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/util/ImageCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/util/ImageFetcher.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/util/ImageFetcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/util/ImageResizer.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/util/ImageResizer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/util/ImageWorker.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/util/ImageWorker.java" />
     </list>
     <ignored path="MyTestNav.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,8 +97,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -120,10 +107,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AsyncDrawable.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AsyncDrawable.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/AsyncDrawable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="44" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+            <state line="26" column="53" selection-start="768" selection-end="768" vertical-scroll-proportion="0.43948296">
               <folding />
             </state>
           </provider>
@@ -133,7 +120,9 @@
         <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/BitmapWorkerTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="44" column="89" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,10 +145,82 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageCache.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ImageCache.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="73" selection-start="933" selection-end="933" vertical-scroll-proportion="0.2142039">
+            <state line="24" column="0" selection-start="883" selection-end="924" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiskLruCache.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/DiskLruCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="8" selection-start="2430" selection-end="2430" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2570#2571#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageFetcher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageFetcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="41" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#5546#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageResizer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageResizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="41" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageWorker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="41" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RetainFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/RetainFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="13" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="47" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen/com/protech/ascension/BuildConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="19" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,10 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/caption_text_layout.xml" />
-        <option value="$PROJECT_DIR$/src/com/protech/ascension/CaptionTextFragment.java" />
-        <option value="$PROJECT_DIR$/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/res/drawable-nodpi/ch1_pg1_caption_border.xml" />
         <option value="$PROJECT_DIR$/res/layout/ch1_page2.xml" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/TouchImageView2.java" />
@@ -198,6 +255,10 @@
         <option value="$PROJECT_DIR$/src/com/protech/ascension/Util/BitmapWorkerTask.java" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/util/AsyncDrawable.java" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/util/ImageCache.java" />
+        <option value="$PROJECT_DIR$/src/com/protech/ascension/util/DiskLruCache.java" />
+        <option value="$PROJECT_DIR$/src/com/protech/ascension/util/ImageFetcher.java" />
+        <option value="$PROJECT_DIR$/src/com/protech/ascension/util/ImageResizer.java" />
+        <option value="$PROJECT_DIR$/src/com/protech/ascension/util/ImageWorker.java" />
       </list>
     </option>
   </component>
@@ -236,16 +297,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -256,6 +307,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="MyTestNav" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -362,6 +423,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyTestNav" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyTestNav" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ascension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -369,14 +448,14 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="191" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="203" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="200" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="200" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="205" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="999" />
@@ -391,8 +470,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -624,6 +703,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31777778" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44777778" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24954017" sideWeight="0.6988889" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3011111" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31777778" sideWeight="0.49785408" order="8" side_tool="true" content_ui="tabs" />
@@ -640,7 +720,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31759655" sideWeight="0.6988889" order="1" side_tool="false" content_ui="tabs" x="1835" y="40" width="1385" height="971" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44777778" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
@@ -716,9 +795,26 @@
         <state line="131" column="13" selection-start="4298" selection-end="4298" vertical-scroll-proportion="0.5804935" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/AsyncDrawable.java">
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/TouchImageView2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="44" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+        <state line="86" column="59" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1FragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="81" selection-start="7315" selection-end="7315" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/protech/ascension/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="883" selection-end="924" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -726,27 +822,66 @@
     <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/BitmapWorkerTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="89" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageFetcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="41" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#5546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageResizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="41" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="41" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/TouchImageView2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/RetainFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="59" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0">
+        <state line="26" column="13" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="47" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/gui/chapter1/Chapter1FragmentActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/DiskLruCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="81" selection-start="7315" selection-end="7315" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="63" column="8" selection-start="2430" selection-end="2430" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/ImageCache.java">
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/util/AsyncDrawable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="73" selection-start="933" selection-end="933" vertical-scroll-proportion="0.2142039">
+        <state line="26" column="53" selection-start="768" selection-end="768" vertical-scroll-proportion="0.43948296">
           <folding />
         </state>
       </provider>

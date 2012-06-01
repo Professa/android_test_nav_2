@@ -22,7 +22,7 @@ import android.graphics.Bitmap.CompressFormat;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.util.LruCache;
 import android.util.Log;
-import com.example.android.bitmapfun.BuildConfig;
+import com.protech.ascension.BuildConfig;
 
 import java.io.File;
 
