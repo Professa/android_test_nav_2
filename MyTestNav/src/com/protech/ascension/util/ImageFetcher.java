@@ -22,7 +22,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.util.Log;
 import android.widget.Toast;
-import com.example.android.bitmapfun.BuildConfig;
+import com.protech.ascension.BuildConfig;
 
 import java.io.*;
 import java.net.HttpURLConnection;

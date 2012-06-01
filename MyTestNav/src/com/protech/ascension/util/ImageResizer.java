@@ -21,7 +21,7 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Log;
-import com.example.android.bitmapfun.BuildConfig;
+import com.protech.ascension.BuildConfig;
 
 /**
  * A simple subclass of {@link ImageWorker} that resizes images from resources given a target width
